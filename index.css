@@ -1,0 +1,137 @@
+body{
+    background-color: rgba(202, 188, 184, 0.26);
+}
+#b1 {
+    height: 550px;
+    font-family: 'Merriweather', serif;
+    width: 40%;
+    border-radius: 80px;
+    margin-top: 110px;
+   float: left;
+}
+
+#b2 {
+    color: white;
+   
+}
+#a3{
+    margin-top: 75px;
+    height: 40px;
+}
+#a4{
+    margin-top: 75px;
+    height: 40px;
+}
+#b5{
+    margin-top: 70px;
+    height: 40px;
+    width: 30%;
+    background-color: goldenrod;
+    border: goldenrod;
+    border-radius: 15px;
+    font-size: 18px;
+}
+#b6{
+    margin-top: 15px;
+    
+}
+#b7{
+    color: gold;
+}
+#b8{
+    margin-top: 100px;
+   
+}
+@media(min-width:1265px) and (max-width:1500px) {
+    #b8 {
+        margin-left: 635px;
+        margin-top: -535px;
+        width:50%
+    }
+    #b1 {
+        height: 500px;
+        width: 40%;
+        margin-left: 10px;
+    }
+}
+@media(min-width:1000px) and (max-width:1265px) {
+    #b8 {
+        margin-left: 35px;
+        margin-top: 156px;
+        width:50%
+    }
+    
+}
+@media(min-width:790px) and (max-width:1000px) {
+    #b8 {
+        margin-left: 22px;
+        margin-top: 210px;
+        width:50%
+    }
+    
+}
+@media(min-width:620px) and (max-width:790px) {
+    #b8 {
+        margin-left: 14px;
+        margin-top: 220px;
+        width:50%
+    }
+    #b5{
+        margin-top: 70px;
+        height: 40px;
+        width: 40%;
+        font-size: 18px;
+    }
+    #b6{
+        margin-top: 15px;
+        font-size: 11px;
+    }
+}
+@media(min-width:500px) and (max-width:620px) {
+    #b1 {
+        
+        height: 500px;
+        width: 84%;
+    }
+    #b8 {
+        margin-left: -5px;
+        margin-top: 40px;
+        width:100%
+    }
+    #b5{
+        margin-top: 70px;
+        height: 40px;
+        width: 40%;
+        font-size: 18px;
+    }
+    #b6{
+        margin-top: 15px;
+        font-size: 11px;
+    }
+}
+@media(min-width:250px) and (max-width:500px) {
+    #b1 {
+        
+        height: 500px;
+        width: 75%;
+    }
+    #b8 {
+        margin-left: -5px;
+        margin-top: 40px;
+        width:100%
+    }
+    #b5{
+        margin-top: 70px;
+        height: 40px;
+        width: 40%;
+        font-size: 15px;
+    }
+    #b6{
+        margin-top: 15px;
+        font-size: 10px;
+    }
+}
+
+
+
+

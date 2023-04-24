@@ -1,0 +1,101 @@
+.a1 {
+    width: 50%;
+    height: 650px;
+    border-radius: 100px
+}
+
+#a2 {
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    color: white;
+}
+
+#a3 {
+    font-family: 'Merriweather', serif;
+    margin-top: 75px;
+    height: 40px;
+}
+
+#a4 {
+    font-family: 'Merriweather', serif;
+    margin-top: 75px;
+    height: 40px;
+}
+
+#a5 {
+    font-family: 'Merriweather', serif;
+    margin-top: 75px;
+    height: 40px;
+}
+
+#a6 {
+    font-family: 'Merriweather', serif;
+    margin-top: 75px;
+    height: 40px;
+    background-color: green;
+    width: 25%;
+    border-radius: 15px;
+    border: green;
+    font-size: 18px;
+    color: white;
+}
+
+#a7 {
+    float: left;
+    margin-top: -450px;
+    font-family: 'Merriweather', serif;
+    margin-left: 70px;
+    color: white;
+    font-size: 60px;
+    margin-left: 150px;
+}
+
+@media(min-width:770px) and (max-width:990px) {
+    .a1 {
+        width: 70%
+    }
+}
+
+@media(min-width:600px) and (max-width:770px) {
+    .a1 {
+        width: 70%;
+    }
+    #a6 {
+        height: 40px;
+        width: 35%; 
+        font-size: 15px;
+        margin-top: 45px;
+    }
+
+}
+
+@media(min-width:250px) and (max-width:600px) {
+    .a1 {
+        width: 70%;
+    }
+    #a6 {
+        height: 40px;
+        width: 35%; 
+        font-size: 12px;
+        margin-top: 45px;
+    }
+}
+
+@media(min-width:250px) and (max-width:328px) {
+    #a2 {
+        font-size: 10px;
+    }
+}
+@media(min-width:328px) and (max-width:500px) {
+    #a2 {
+        font-size: 17px;
+    }
+}
+@media(max-width:400px) {
+    #a6 {
+        height: 40px;
+        width: 75%; 
+        font-size: 10px;
+        margin-top: 45px;
+    }
+}
